@@ -538,7 +538,7 @@ static int fpc1020_tee_probe(struct platform_device *pdev)
 		goto exit;
 	}
 
-	fpc1020->wakeup_enabled = 0;
+	fpc1020->wakeup_enabled = 1;
 
 	rc = fpc1020_request_named_gpio(fpc1020, "fpc,irq-gpio",
 			&fpc1020->irq_gpio);
