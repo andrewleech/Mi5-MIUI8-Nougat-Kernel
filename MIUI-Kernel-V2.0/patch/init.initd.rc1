@@ -1,0 +1,2 @@
+service sysinit /system/bin/sysinit
+oneshot

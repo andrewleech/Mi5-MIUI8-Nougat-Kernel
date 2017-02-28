@@ -1,0 +1,3 @@
+on boot 
+    write /sys/devices/soc/soc:fpc_fpc1020/enable_wakeup 1
+    write /sys/devices/soc/soc:fpc_fpc1020/enable_key_events 1
